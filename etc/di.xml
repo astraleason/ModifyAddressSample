@@ -3,5 +3,5 @@
     <type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
         <plugin name="eslite_checkout_layout_processor" type="AstralWeb\ModifyAddress\Plugin\Block\LayoutProcessor" sortOrder="1"/>
     </type>
-    <preference for="Magento\Customer\Model\Address\Validator\General" type="AstralWeb\ModifyAddress\Model\Address\Validator\General" />
+    <preference for="Magento\Customer\Model\Address\AbstractAddress" type="AstralWeb\ModifyAddress\Model\Address\AbstractAddress" />
 </config>
